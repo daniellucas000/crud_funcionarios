@@ -25,7 +25,7 @@ export function Card({
   return (
     <div
       onClick={onClick}
-      className="flex flex-col justify-between rounded-lg bg-white shadow-md items-center relative pt-12"
+      className="flex flex-col justify-between rounded-lg bg-white shadow-md items-center relative pt-12 min-w-64"
     >
       <div>
         {imagem === '' ? (
